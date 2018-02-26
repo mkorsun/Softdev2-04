@@ -6,8 +6,9 @@ import json
 #create a db called PoGoDex
 #make a collection called pokemon
 
-#Data is already a list of dictionaries, so we can directly do insert_many with it
-
+#Dataset is already a list of dictionaries, so we can directly do insert_many with it
+#Downloaded from https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
+#Contains stats and info of all Pokemon
 
 connection = pymongo.MongoClient("homer.stuy.edu")
 db = connection.PoGoDex
