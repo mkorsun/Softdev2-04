@@ -1,4 +1,4 @@
-from pymongo import MongoClient
+import pymongo
 import json
 
 #Our connection method works thus
